@@ -1,0 +1,60 @@
+.welcome {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  display: block;
+  text-align: right;
+  top: 190px;
+  right: 8.5vw;
+}
+
+.description {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  display: block;
+  text-align: right;
+  top: 240px;
+  right: 8.5vw;
+  font-weight: 300;
+}
+
+.title {
+  font-size: 1rem;
+  color: #1e57a7;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.offer {
+  margin: 0;
+  font-size: 2.7rem;
+  color: #98247e;
+  font-weight: 500;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  color: rgba(10, 10, 10, 0.6);
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.licence {
+  color: rgba(10, 10, 10, 0.6);
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.box {
+  transform: translateY(10%);
+  transition: transform 0.5s ease;
+}
+
+.box.show {
+  transform: translateY(0);
+}

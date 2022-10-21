@@ -1,0 +1,43 @@
+html {
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #98247e;
+  border-radius: 100vw;
+  border: solid 0.25em white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #be2e9f;
+}
+
+body {
+  margin: 0;
+  position: absolute;
+  padding: 0;
+}
+
+.scroll-tracker {
+  height: 0.5rem;
+  position: fixed;
+  inset: 0 0 auto;
+  background-color: rgb(255, 0, 204);
+  z-index: 100;
+}
