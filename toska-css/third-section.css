@@ -1,0 +1,16 @@
+.contact-form input:valid,
+.contact-form input:focus {
+  border: 1px solid;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 1em;
+}
+.third-section-right-flex {
+  display: flex;
+  flex-direction: column;
+}
