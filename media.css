@@ -221,6 +221,7 @@
   .backing {
     height: 14em;
     width: 100vw;
+    overflow: hidden;
   }
   .first-section {
     display: grid;
@@ -348,6 +349,7 @@
   .backing {
     height: 14em;
     width: 100vw;
+    overflow: hidden;
   }
   .first-section {
     display: grid;
