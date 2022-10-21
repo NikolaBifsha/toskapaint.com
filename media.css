@@ -11,6 +11,9 @@
     z-index: 2;
     transition: all 0.5s ease;
   }
+  .first-img{
+    overflow: hidden;
+  }
   .logo-white {
     width: 400px;
     align-items: center;
@@ -182,6 +185,9 @@
     top: 0;
     z-index: 999;
   }
+  .first-img{
+    overflow: hidden;
+  }
 
   .header-contact {
     background: transparent;
@@ -345,6 +351,9 @@
     z-index: 2;
     box-shadow: 0 0 15px rgba(77, 77, 77, 0.6);
     transition: all 0.5s ease;
+  }
+  .first-img{
+    overflow: hidden;
   }
   .backing {
     height: 14em;
