@@ -228,9 +228,11 @@
     transition: all 0.5s ease;
   }
   .backing {
-    height: 18em;
     width: 100%;
-    object-fit:cover;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+    height: 14em;
   }
   .first-section {
     display: grid;
@@ -356,9 +358,11 @@
     overflow: hidden;
   }
   .backing {
-    height: 18em;
-    width: 100vw;
-    object-fit:cover;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+    height: 14em;
   }
   .first-section {
     display: grid;
