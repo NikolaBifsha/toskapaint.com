@@ -356,7 +356,7 @@
     overflow: hidden;
   }
   .backing {
-    height: 14em;
+    height: 18em;
     width: 100vw;
     object-fit:cover;
   }
