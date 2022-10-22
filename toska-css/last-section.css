@@ -1,0 +1,22 @@
+.last-section {
+  background-color: darkgray;
+  height: 75px;
+}
+
+.last-section {
+  background: #252525;
+  margin: none auto;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.last-text {
+  color: #777;
+  margin-left: 7vw;
+  position: absolute;
+  font-weight: 300;
+  font-size: 15px;
+  margin-right: 50vw;
+}
