@@ -21,13 +21,13 @@ window.addEventListener("scroll", () => {
 if (width > 1000) {
   window.addEventListener("scroll", () => {
     if (window.scrollY > 0) {
-      document.getElementById("myLogoId").src = "Toska_Colour.png";
+      document.getElementById("myLogoId").src = "Toska_Colour-min.png";
     } else {
-      document.getElementById("myLogoId").src = "Toska_White.png";
+      document.getElementById("myLogoId").src = "Toska_White-min.png";
     }
   });
 } else if (width < 1000) {
-  document.getElementById("myLogoId").src = "Toska_Colour.png";
+  document.getElementById("myLogoId").src = "Toska_Colour-min.png";
 }
 
 window.addEventListener("scroll", () => {
