@@ -9,6 +9,10 @@
   right: 0px;
 }
 
+.top{
+  top: -10px;
+}
+
 .contact-button {
   background-color: #98247e;
   border: 2px #98247e solid;
