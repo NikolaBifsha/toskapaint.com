@@ -26,26 +26,26 @@ window.addEventListener("scroll", () => {
 
 if (width > 1000 && window.scrollY <= 0.0) {
   document.getElementById("myLogoId").src =
-    "/toska-paints/pics/Toska_White-min.png";
+    "Toska_White-min.png";
   window.addEventListener("scroll", () => {
     if (window.scrollY > 0.0) {
       document.getElementById("myLogoId").src =
-        "/toska-paints/pics/Toska_Colour-min.png";
+        "Toska_Colour-min.png";
     } else {
       document.getElementById("myLogoId").src =
-        "/toska-paints/pics/Toska_White-min.png";
+        "Toska_White-min.png";
     }
   });
 } else if (width > 1000 && window.scrollY > 0.0) {
   document.getElementById("myLogoId").src =
-    "/toska-paints/pics/Toska_Colour-min.png";
+    "Toska_Colour-min.png";
   window.addEventListener("scroll", () => {
     if (window.scrollY == 0.0) {
       document.getElementById("myLogoId").src =
-        "/toska-paints/pics/Toska_White-min.png";
+        "Toska_White-min.png";
     } else {
       document.getElementById("myLogoId").src =
-        "/toska-paints/pics/Toska_Colour-min.png";
+        "Toska_Colour-min.png";
     }
   });
 }
