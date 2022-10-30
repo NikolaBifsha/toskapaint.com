@@ -8,17 +8,37 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="toskapaints-general.css"/>
-    <link rel="stylesheet" href="toskapaints-wrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="toskapaintes-header.css"
+    />
+    <link
+      rel="stylesheet"
+      href="toskapaints-general.css"
+    />
+    <link
+      rel="stylesheet"
+      href="toskapaints-wrap.css"
+    />
     <link rel="stylesheet" href="media.css" />
     <link rel="stylesheet" href="first-section.css" />
+    <link rel="stylesheet" href="second-section.css" />
     <link rel="stylesheet" href="third-section.css" />
     <link rel="stylesheet" href="last-section.css" />
-    <script defer type="module" src="toskapaint.js"></script>
+    <script
+      defer
+      type="module"
+      src="toskapaint.js"
+    ></script>
   </head>
 
   <body>
-    <div id="top"class="top"><div/>
+    <div id="preloader"></div>
+    <a href="top"></a>
     <header id="header" class="header">
       <a href="#top">
         <img
@@ -33,7 +53,10 @@
     </header>
     <div id="wrap" class="wrap">
       <section class="background-section">
-        <img class="backing" src="Backing-finished-min.png" />
+        <img
+          class="backing"
+          src="Backing-finished-min.png"
+        />
         <div class="welcome">Welcome to Toska Services</div>
         <div class="description">Adelaide Painting & Maintenance</div>
       </section>
@@ -51,28 +74,46 @@
               </p>
               <p class="licence">Builder Licence No. 289988</p>
               <a href="#contact">
-                <button class="contact-button">
-                  Contact Us Below
-                </button>
+                <button class="contact-button">Contact Us Below</button>
               </a>
             </div>
           </div>
         </div>
         <div class="first-section-right">
-          <img class="first-img" src="Adelaide-Painter-min.jpg" alt="" />
+          <img
+            class="first-img"
+            src="Adelaide-Painter-min.jpg"
+            alt=""
+          />
         </div>
       </section>
       <section class="second-section">
         <img class="img" src="Toska-Paint-min.jpg" alt="" />
-        <img class="img" src="Toska-Paint-2-min.jpg" alt="" />
-        <img class="img" src="Toska-Paint-3-min.jpg" alt="" />
-        <img class="img" src="Toska-Paint-7-min.jpg" alt="" />
+        <img
+          class="img"
+          src="Toska-Paint-2-min.jpg"
+          alt=""
+        />
+        <img
+          class="img"
+          src="Toska-Paint-3-min.jpg"
+          alt=""
+        />
+        <img
+          class="img"
+          src="Toska-Paint-7-min.jpg"
+          alt=""
+        />
       </section>
-      <section class="third-section">
+      <section id="contact" class="third-section">
         <div class="third-section-left">
-          <img class="second-img" src="Painter-min.jpg" alt="" />
+          <img
+            class="second-img"
+            src="Painter-min.jpg"
+            alt=""
+          />
         </div>
-        <div id="contact" class="third-section-right">
+        <div class="third-section-right">
           <div class="box">
             <h4 class="title">We'd love to hear from you</h4>
             <h2 class="offer">Contact Us Today</h2>
@@ -96,10 +137,14 @@
                   <span>Subject</span>
                 </div>
                 <div class="input-box">
-                  <input type="text" name="text" required />
+                  <textarea
+                    rows="5"
+                    name="text"
+                    style="resize: none"
+                    required
+                  ></textarea>
                   <span>Your Message</span>
                 </div>
-                <input type="hidden" name="_next" value="https://github.com/NikolaBifsha/toskapaint.com/blob/main/thanx.html">
                 <button type="submit" class="contact-button">Send Email</button>
               </form>
             </div>
